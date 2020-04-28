@@ -8,9 +8,9 @@ alias rmd='[ -d ${HOME}/Downloads/ ] && echo "rm -rvf ${HOME}/Downloads/*" && rm
 alias rme='[ -d ${HOME}/Desktop/ ] && echo "rm -rvf ${HOME}/Desktop/*" && rm -rvf ${HOME}/Desktop/*'
 
 ### Editor ####################################################################
-export EDITOR="emacs"
-export SUDO_EDITOR="emacs -nw"
-export GIT_EDITOR="emacs -nw"
+export EDITOR="vim"
+export SUDO_EDITOR="vim"
+export GIT_EDITOR="vim"
 
 # Disable warning default shell xsh on macOS Catalina and higher
 if [ `uname -s` = "Darwin" ]; then
