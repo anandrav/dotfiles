@@ -1,7 +1,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_CUSTOM=~/.oh-my-zsh/custom
-ZSH_THEME="common"
+# ZSH_THEME="common"
 CASE_SENSITIVE="true"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
