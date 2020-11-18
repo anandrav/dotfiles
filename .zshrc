@@ -10,9 +10,9 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Editor
-export EDITOR="vim"
-export SUDO_EDITOR="vim"
-export GIT_EDITOR="vim"
+export EDITOR="nvim"
+export SUDO_EDITOR="nvim"
+export GIT_EDITOR="nvim"
 
 # OPAM
 eval `opam config env`
