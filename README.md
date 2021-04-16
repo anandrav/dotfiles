@@ -1,6 +1,6 @@
 ## Install
 ```
-git clone https://www.github.com/anandrav/dotfiles
+git clone git@github.com:anandrav/dotfiles.git
 rsync -av dotfiles/ ~/
 rm -rf dotfiles/
 ```
